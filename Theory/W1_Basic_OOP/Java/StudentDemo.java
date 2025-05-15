@@ -1,4 +1,4 @@
-public import java.util.Scanner;
+import java.util.Scanner;
 class Student{
 private String name;
 private int rollno;
