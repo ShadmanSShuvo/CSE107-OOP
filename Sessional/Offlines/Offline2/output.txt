@@ -1,0 +1,83 @@
+Cannot add more courses to Sheldon
+==================================
+Student Name: Sheldon, ID: 1
+Course Name: CSE107, Credit Hour: 3, gradePoint: 4
+Course Name: CSE105, Credit Hour: 3, gradePoint: 4
+Course Name: CSE108, Credit Hour: 1.5, gradePoint: 3.5
+Course Name: CSE106, Credit Hour: 1.5, gradePoint: 3.5
+Course Name: EEE164, Credit Hour: 0.75, gradePoint: 4
+CGPA: 3.84615
+Total Credit Hours Earned: 9.75
+Most Favorite Course: CSE107
+Least Favorite Course: CSE108
+==================================
+==================================
+Student Name: Penny, ID: 2
+Course Name: CSE107, Credit Hour: 3, gradePoint: 3.25
+Course Name: CSE108, Credit Hour: 1.5, gradePoint: 4
+Course Name: ME174, Credit Hour: 0.75, gradePoint: 3.5
+CGPA: 3.5
+Total Credit Hours Earned: 5.25
+Most Favorite Course: CSE108
+Least Favorite Course: CSE107
+==================================
+==================================
+Student Name: Leonard, ID: 3
+Course Name: CSE107, Credit Hour: 3, gradePoint: 4
+Course Name: CSE108, Credit Hour: 1.5, gradePoint: 4
+Course Name: ME174, Credit Hour: 0.75, gradePoint: 3.5
+Course Name: CSE105, Credit Hour: 3, gradePoint: 3.75
+CGPA: 3.86364
+Total Credit Hours Earned: 8.25
+Most Favorite Course: CSE107
+Least Favorite Course: ME174
+==================================
+==================================
+Student Name: Howard, ID: 4
+Course Name: CSE107, Credit Hour: 3, gradePoint: 4
+Course Name: CSE108, Credit Hour: 1.5, gradePoint: 4
+Course Name: ME174, Credit Hour: 0.75, gradePoint: 3.5
+Course Name: CSE105, Credit Hour: 3, gradePoint: 3.5
+Course Name: CSE106, Credit Hour: 1.5, gradePoint: 3.75
+CGPA: 3.76923
+Total Credit Hours Earned: 9.75
+Most Favorite Course: CSE107
+Least Favorite Course: ME174
+==================================
+==================================
+Student Name: Raj, ID: 5
+Course Name: CSE107, Credit Hour: 3, gradePoint: 1.5
+Course Name: CSE108, Credit Hour: 1.5, gradePoint: 2
+Course Name: ME174, Credit Hour: 0.75, gradePoint: 1.75
+Course Name: CSE105, Credit Hour: 3, gradePoint: 3.5
+Course Name: CSE106, Credit Hour: 1.5, gradePoint: 3.75
+CGPA: 3.1875
+Total Credit Hours Earned: 6
+Most Favorite Course: CSE106
+Least Favorite Course: CSE107
+==================================
+Failed Courses for Raj:
+Course Name: CSE107, Credit Hour: 3
+Course Name: ME174, Credit Hour: 0.75
+==================================
+Topper: Leonard
+Topper CGPA: 3.86364
+==================================
+Topper in CSE107: Sheldon
+Topper in CSE107 gradePoint: 4
+==================================
+Topper in CSE105: Sheldon
+Topper in CSE105 gradePoint: 4
+==================================
+Topper in CSE108: Penny
+Topper in CSE108 gradePoint: 4
+==================================
+Topper in CSE106: Howard
+Topper in CSE106 gradePoint: 3.75
+==================================
+Topper in EEE164: Sheldon
+Topper in EEE164 gradePoint: 4
+==================================
+Topper in ME174: Penny
+Topper in ME174 gradePoint: 3.5
+==================================

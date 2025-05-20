@@ -1,0 +1,4 @@
+Enter number of books for Branch 1:
+Enter Book ID:
+Enter Book Title:
+Is the book available? (true/false):
