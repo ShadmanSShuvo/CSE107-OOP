@@ -1,44 +1,70 @@
-## Hi There! 👋
-![](https://komarev.com/ghpvc/?username=ShadmanSShuvo&color=brightgreen)
+# CSE107 - Object-Oriented Programming (OOP)
 
-This is **Md. Shadman Shahriyar Shuvo**, a **Freshman Year (Level. Level-1, Term-2) CS Undergraduate Student** at **Bangladesh University of Engineering and Technology**.
+📚 This repository contains assignments, lab tasks, codes, and resources for **CSE107: Object-Oriented Programming**, a core course in the BUET CSE undergraduate curriculum.
 
-- 🔭 I’m currently working on competitive programming and a [Python/C++] project.
-- 🌱 I’m currently learning algorithms and web development.
-- 📫 Reach me at: [your.email@example.com](mailto:your.email@example.com)
-- ⚡ Fun fact: I solved my first Codeforces problem after 10 tries!
+## 🔖 Course Details
 
-## Featured Projects
-- **[Repo Name](https://github.com/ShadmanSShuvo/repo-name)**: A Python-based game for BUET coursework.
-- **[Another Repo](https://github.com/ShadmanSShuvo/another-repo)**: C++ solutions for Codeforces problems.
+- **Course Code:** CSE 107
+- **Course Title:** Object-Oriented Programming Language
+- **Semester:** Level-1 Term-2
+- **University:** Bangladesh University of Engineering and Technology (BUET)
 
-## Skills
-- **Languages**: C++, Python, JavaScript
-- **Tools**: Git, VS Code, Linux
-- **Areas**: Competitive Programming, Algorithms
+## 🧠 Topics Covered
 
-## Profile Overview
-<div align="center">
-![](http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=ShadmanSShuvo&theme=onedark)
-![](http://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=ShadmanSShuvo&theme=onedark) ![](http://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=ShadmanSShuvo&theme=onedark)
-![](http://github-profile-summary-cards.vercel.app/api/cards/stats?username=ShadmanSShuvo&theme=onedark) ![](http://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=ShadmanSShuvo&theme=onedark&utcOffset=6)
-</div>
+- Classes & Objects
+- Constructors and Destructors
+- Inheritance
+- Polymorphism
+- Operator Overloading
+- Friend Functions
+- File I/O
+- Templates
+- Exception Handling
+- Object-Oriented Design Principles
 
-## Connect with me
-<div align="left" style="background-color: #0d1117; padding: 10px; border-radius: 10px;">
-  <a href="https://github.com/ShadmanSShuvo" target="_blank" style="margin-right: 10px;">
-    <svg ...> <!-- Keep your existing SVG icons -->
-  </a>
-  <!-- Other social links -->
-</div>
+## 📂 Repository Structure
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ShadmanSShuvo/ShadmanSShuvo/output/github-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/ShadmanSShuvo/ShadmanSShuvo/output/github-snake.svg" />
-  <img alt="github-snake" src="https://raw.githubusercontent.com/ShadmanSShuvo/ShadmanSShuvo/output/github-snake.svg" />
-</picture>
+```
+CSE107-OOP/
+├── Lab Tasks/
+│   ├── Lab01.cpp
+│   ├── Lab02.cpp
+│   └── ...
+├── Assignments/
+│   ├── Assignment1.cpp
+│   └── ...
+├── Notes/
+│   └── OOP_Concepts.md
+└── README.md
+```
 
-[website]: https://github.com/ShadmanSShuvo
-[facebook]: https://www.facebook.com/ShadmanSShuvo
-[codeforces]: https://codeforces.com/profile/ShadmanSShuvo
-[linkedin]: https://www.linkedin.com/in/sdmnsvo/
+> **Note:** File names and folders may evolve as the course progresses.
+
+## 🛠️ Language & Tools
+
+- **Language:** C++
+- **Compiler:** g++, clang++, or any standard C++17-compliant compiler
+- **Editor:** VS Code (recommended) or any C++ IDE of choice
+
+## ✅ How to Run
+
+To compile and run any `.cpp` file:
+
+```bash
+g++ filename.cpp -o output
+./output
+```
+
+## 🙋‍♂️ Author
+
+**Shadman Shahriyar Shuvo**  
+🎓 BUET CSE Undergraduate  
+📫 [GitHub Profile](https://github.com/ShadmanSShuvo)
+
+## ⚠️ Disclaimer
+
+This repository is intended for **learning purposes only**. Please **do not copy-paste** code for your own submissions without understanding the logic and writing your own implementation.
+
+---
+
+Happy coding! 🚀
