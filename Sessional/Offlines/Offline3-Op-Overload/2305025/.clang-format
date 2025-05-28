@@ -1,0 +1,27 @@
+BasedOnStyle: llvm
+IndentWidth: 4
+TabWidth: 4
+UseTab: Never
+ColumnLimit: 120
+
+# Allow short functions in one line (like inline getters), but force multi-line for loops/if/else
+AllowShortIfStatementsOnASingleLine: false
+AllowShortLoopsOnASingleLine: false
+AllowShortFunctionsOnASingleLine: Inline
+RemoveBracesLLVM: true  # remove braces for single-line control statements
+
+# Control spacing and brace style
+SpaceBeforeParens: ControlStatements
+BreakBeforeBraces: Allman
+
+# Includes
+SortIncludes: false
+IncludeBlocks: Preserve
+IncludeCategories:
+  - Regex:           '^<.*\.h>'
+    Priority:        1
+  - Regex:           '^"'
+    Priority:        2
+
+# Namespace formatting
+NamespaceIndentation: None

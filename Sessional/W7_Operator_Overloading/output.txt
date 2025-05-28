@@ -1,0 +1,68 @@
+=== Player 1 ===
+---- Allrounder Info ----
+Name: Marcus_Stoinis, Age: 34, Matches Played: 90
+---- Batting Stats ----
+Runs Scored: 1800 Balls Faced: 1450
+Batting Average: 1.24138, Strike Rate: 124.138
+---- Bowling Stats ----
+Wickets Taken: 60 Runs Conceled: 1600
+Wicket Average: 0.666667, Economy: 6.4
+
+=== Player 2 ===
+---- Bowler Info ----
+Name: Mustafizur_Rahman, Age: 29, Matches Played: 110
+---- Bowling Stats ----
+Wickets Taken: 170 Runs Conceled: 2400
+Wicket Average: 1.54545, Economy: 3.07574
+
+=== Player 3 ===
+---- Allrounder Info ----
+Name: Ben_Stokes, Age: 33, Matches Played: 180
+---- Batting Stats ----
+Runs Scored: 5000 Balls Faced: 4000
+Batting Average: 1.25, Strike Rate: 125
+---- Bowling Stats ----
+Wickets Taken: 250 Runs Conceled: 5200
+Wicket Average: 1.38889, Economy: 6.5
+
+=== Player 4 ===
+---- Allrounder Info ----
+Name: Shakib_Al_Hasan, Age: 36, Matches Played: 250
+---- Batting Stats ----
+Runs Scored: 7000 Balls Faced: 9000
+Batting Average: 0.777778, Strike Rate: 77.7778
+---- Bowling Stats ----
+Wickets Taken: 350 Runs Conceled: 6000
+Wicket Average: 1.4, Economy: 6
+
+=== Player 5 ===
+---- Batsman Info ----
+Name: Virat_Kohli, Age: 35, Matches Played: 290
+---- Batting Stats ----
+Runs Scored: 13000 Balls Faced: 11500
+Batting Average: 1.13043, Strike Rate: 113.043
+
+=== Player 6 ===
+---- Allrounder Info ----
+Name: Cameron_Green, Age: 25, Matches Played: 50
+---- Batting Stats ----
+Runs Scored: 1200 Balls Faced: 1000
+Batting Average: 1.2, Strike Rate: 120
+---- Bowling Stats ----
+Wickets Taken: 45 Runs Conceled: 900
+Wicket Average: 0.9, Economy: 5.61798
+
+=== Player 7 ===
+---- Bowler Info ----
+Name: Jasprit_Bumrah, Age: 30, Matches Played: 100
+---- Bowling Stats ----
+Wickets Taken: 200 Runs Conceled: 2500
+Wicket Average: 2, Economy: 3.125
+
+Name: Marcus_Stoinis, Age: 34, Matches Played: 90
+Name: Mustafizur_Rahman, Age: 29, Matches Played: 110
+Name: Ben_Stokes, Age: 33, Matches Played: 180
+Name: Shakib_Al_Hasan, Age: 36, Matches Played: 250
+Name: Virat_Kohli, Age: 35, Matches Played: 290
+Name: Cameron_Green, Age: 25, Matches Played: 50
+Name: Jasprit_Bumrah, Age: 30, Matches Played: 100

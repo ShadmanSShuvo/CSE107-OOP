@@ -1,0 +1,87 @@
+```cpp
+#ifndef FRACTIONMATRIX_H
+#define FRACTIONMATRIX_H
+
+//#include "fractionvector.h"
+#include <iostream>
+
+class FractionMatrix {
+private:
+    FractionVector* rows;
+    FractionVector* columns;
+    int numRows;
+    int numCols;
+
+public:
+    FractionMatrix(int rows, int cols);
+    FractionMatrix(const FractionMatrix& other);
+    FractionMatrix& operator=(const FractionMatrix& other);
+    ~FractionMatrix();
+
+    FractionVector& operator[](int index);
+    const FractionVector& operator[](int index) const;
+    FractionVector getColumn(int index) const;
+
+    FractionMatrix operator+(const FractionMatrix& other) const;
+    FractionMatrix operator-(const FractionMatrix& other) const;
+    FractionMatrix operator*(const FractionMatrix& other) const;
+    FractionMatrix operator%(const FractionMatrix& other) const;
+    FractionMatrix operator*(const Fraction& scalar) const;
+    FractionMatrix operator/(const Fraction& scalar) const;
+
+    friend FractionMatrix operator*(const Fraction& scalar, const FractionMatrix& mat);
+
+    FractionMatrix transpose() const;
+
+    friend std::ostream& operator<<(std::ostream& os, const FractionMatrix& mat);
+};
+
+#endif
+```
+
+<xaiArtifact artifact_id="f4a43c4a-d863-4342-abe2-d9ad8c98f851" artifact_version_id="f7231108-1027-425b-ad60-5a960c11e81d" title="fractionmatrix.cpp">
+```cpp
+#include "fractionmatrix.h"
+
+FractionMatrix::FractionMatrix(int rows, int cols) : numRows(rows), numCols(cols) {
+    // TODO: Allocate rows array (numRows FractionVectors, each of size numCols)
+    // TODO: Allocate columns array (numCols FractionVectors, each of size numRows)
+    // TODO: Initialize elements, ensuring rows[i][j] == columns[j][i]
+}
+
+FractionMatrix::FractionMatrix(const FractionMatrix& other) : numRows(other.numRows), numCols(other.numCols) {
+    // TODO: Deep copy rows and columns, maintaining consistency
+}
+
+FractionMatrix& FractionMatrix::operator=(const FractionMatrix& other) {
+    // TODO: Implement assignment, updating both rows and columns
+    return *this;
+}
+
+FractionMatrix::~FractionMatrix() {
+    // TODO: Free rows and columns arrays
+}
+
+FractionVector& FractionMatrix::operator[](int index) {
+    // TODO: Return reference to rows[index]
+    // TODO: Ensure any modification via rows[index][j] updates columns[j][index]
+    static FractionVector dummy(0);
+    return dummy;
+}
+
+const FractionVector& FractionMatrix::operator[](int index) const {
+    // TODO: Return const reference to rows[index]
+    static FractionVector dummy(0);
+    return dummy;
+}
+
+FractionVector FractionMatrix::getColumn(int index) const {
+    // TODO: Return columns[index] with bounds checking
+    return FractionVector(0);
+}
+
+// ... (other methods as in original skeleton)
+```
+
+### Conclusion
+A single array of row vectors would be sufficient to represent the matrix and is more memory-efficient, but the assignment’s requirement for both row and column arrays likely aims to test your ability to manage redundant data structures and optimize column access. Implement the class with both arrays as specified, ensuring consistency between rows[i][j] and columns[j][i], and use the provided skeleton code to guide your implementation. If you want to discuss optimizing specific operations or handling the synchronization, let me know!
